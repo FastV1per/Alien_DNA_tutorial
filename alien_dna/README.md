@@ -41,7 +41,6 @@ ChromeOS is a Linux based operating system. You should be relieved as you only n
 Once you have all the requirements to start the lab, let's have you open your shell or your terminal. It is a black blox and it would say either terminal or shell. to make sure you're on the Linux OS you must have a "$" at the end of your name. If not, please make sure you have followed the directions above carefully and ask your teacher for help. Let's dowload the "Alien_DNA_tutorial" program. Copy and paste (Ctrl + C | Ctrl + V for windows or command + C| command +V for mac) this code in your terminal/shell without the $:
 
 ```
-
 $ git clone https://github.com/FastV1per/Alien_DNA_tutorial.git
 ```
 
@@ -52,25 +51,28 @@ In english, I've asked github to send me a copy of this program for me to work o
 ### The two commands that you will forever use
 
 There are two commands that you will be using for the rest of your coding careers and that's (1) how to look into a file and (2) how to get into or out of a file.
- 
+
+#### ls
 You should be able to see it stored in linux, to see that, type: ls
 
 ls is the command for list
 
+#### cd
 In order to get into the file type: cd
 
 cd is the command for change directory 
 
 If I wanted to get into my file I would type: 
 
-> $ cd Alien_DNA_tutorial
-
-then type ls and you should see a README.md file and a alien_dna file. If alien_dna is highlighted a different color, that means you can jump into that file using the cd command. 
+```
+$ cd Alien_DNA_tutorial
+```
+Type 'ls' and you should see a README.md file and a alien_dna file. If alien_dna is highlighted a different color, that means you can jump into that file using the cd command. 
 
 If you do not see Alien_DNA_tutorial as a file make sure you have copied and pasted correctly, LinuxOS is case sensitive, meaning, if there is one letter off linux will give you a error and will not run your code. Otherwise, good luck on the lab!
 
 # DNA from outer space
-You and your team of researchers were sent on a mission to record the location of a local meteor shower. When you and your team got there, some of the debris left from that shower left from that shower remained intact. You and your collegues collected any pieces that you could find in order to test their components. One of your team members analyzed these strange rocks one night and have found strange alien DNA on them, Quickly, your colleague has collected a couple of more samples and put them into a sequencer to sequence the data into the file. 
+You and your team of researchers were sent on a mission to record the location of a local meteor shower. When you and your team got there, some of the debris remained intact. Excited to see pieces of rock fallen from the shy, you and your collegues ruch to collect any pieces that you could find in order to test their components.One night, one of your team members analyzed these strange rocks and have found strange alien DNA on them. Quickly, your colleague has collected a couple of more samples and put them into a sequencer to sequence the data into a file. When you were given the data. You wonder if this alien DNA could bre realted to a known species here on earth.
 
 
 ## Goals of Today
