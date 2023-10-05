@@ -53,23 +53,23 @@ In english, I've asked github to send me a copy of this program for me to work o
 There are two commands that you will be using for the rest of your coding careers and that's (1) how to look into a file and (2) how to get into or out of a file.
 
 #### ls
-You should be able to see it stored in linux, to see that, type: ls
+How do I know if Alien_DNA_tutorial file is downloaded into linux? You should be able to see your files by typing: ls
 
-ls is the command for list
+ls is the command for list, so if you want to know where you are in a directory, type this command.
 
 #### cd
-In order to get into the file type: cd
-
-cd is the command for change directory 
-
-If I wanted to get into my file I would type: 
+What if I want to get into a file called alien_dna? You can jump into that directory by typing the command cd, here's how it looks like:
 
 ```
 $ cd Alien_DNA_tutorial
 ```
+Cd is the command for change directory
+
 Type 'ls' and you should see a README.md file and a alien_dna file. If alien_dna is highlighted a different color, that means you can jump into that file using the cd command. 
 
-If you do not see Alien_DNA_tutorial as a file make sure you have copied and pasted correctly, LinuxOS is case sensitive, meaning, if there is one letter off linux will give you a error and will not run your code. Otherwise, good luck on the lab!
+Go ahead and get use to using these commands by exploring your computer.
+
+If you do not see Alien_DNA_tutorial as a file make sure you have copied and pasted correctly, LinuxOS is case sensitive, meaning, if there is one letter off, linux will give you a error and will not run your code. Otherwise, good luck on the lab!
 
 # DNA from outer space
 You and your team of researchers were sent on a mission to record the location of a local meteor shower. When you and your team got there, some of the debris remained intact. Excited to see pieces of rock fallen from the shy, you and your collegues ruch to collect any pieces that you could find in order to test their components.One night, one of your team members analyzed these strange rocks and have found strange alien DNA on them. Quickly, your colleague has collected a couple of more samples and put them into a sequencer to sequence the data into a file. When you were given the data. You wonder if this alien DNA could bre realted to a known species here on earth.
@@ -81,6 +81,8 @@ You and your team of researchers were sent on a mission to record the location o
 * Editing and transforming your data to fit a program's needs
 * Analyze data using BLAST
 
+### Acessing your data
 
+Let's get the data, to do this, change the directory to alien_dna
 
 
