@@ -41,10 +41,12 @@ ChromeOS is a Linux based operating system. You should be relieved as you only n
 Once you have all the requirements to start the lab, let's have you open your shell or your terminal. It is a black blox and it would say either terminal or shell. to make sure you're on the Linux OS you must have a "$" at the end of your name. If not, please make sure you have followed the directions above carefully and ask your teacher for help. Let's dowload the "Alien_DNA_tutorial" program. Copy and paste (Ctrl + C | Ctrl + V for windows or command + C| command +V for mac) this code in your terminal/shell without the $:
 
 
-$ git clone https://github.com/FastV1per/Alien_DNA_tutorial.git
+> $ git clone https://github.com/FastV1per/Alien_DNA_tutorial.git
 
 
 git is github, clone is the command to download, and the URL is the link to this tutorial.
+
+In english, I've asked github to send me a copy of this program for me to work on.
 
 ### The two commands that you will forever use
 
@@ -60,7 +62,7 @@ cd is the command for change directory
 
 If I wanted to get into my file I would type: 
 
-cd Alien_DNA_tutorial
+> $ cd Alien_DNA_tutorial
 
 then type ls and you should see a README.md file and a alien_dna file. If alien_dna is highlighted a different color, that means you can jump into that file using the cd command. 
 
