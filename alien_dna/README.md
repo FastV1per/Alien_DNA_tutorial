@@ -34,4 +34,11 @@ ChromeOS is a Linux based operating system. You should be relieved as you only n
 4. Follow the on-screen instructions. Setup can take 10 minutes or more. 
 5. A terminal window opens. That is what you'll be working on. You have a Debian 11 (Bullseye) environment. Side note: Not alot of researchers use Debian but a couple of gaming companies use this if they wanted to remaster old PC games. 
 
+# Goals of Today
+* Using basic C language using LinuxOS 
+* Understand biological data stored through a FAFSTA file
+* Editing and transforming your data to fit a program's needs
+* Analyze data using BLAST
+
+
 
