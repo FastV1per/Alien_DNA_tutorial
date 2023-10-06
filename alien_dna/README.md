@@ -136,7 +136,7 @@ protein sequences, in which based pairs or amino acids are represented using sin
 
 Top line is a simgle-line description of the DNA sequence, fllowed by the sequence itself.
 
-Q1.) Is this a DNA sequence or a protein sequence? Why?
+* Q1. Is this a DNA sequence or a protein sequence? Why?
 
 To look into a file type this:
 
@@ -151,8 +151,9 @@ You should see something like this:
 
 The top line is a single-line description of the DNA sequence, followed by the sequence itself. 
 
-Q2.) Does this file look right to you? What do you think these N mean?
-Q3.) Is this supposed to be a DNA sequence or a protein sequence? Why?
+* Q2. Does this file look right to you? What do you think these N mean?
+
+* Q3. Is this supposed to be a DNA sequence or a protein sequence? Why?
 
 ### Editing your data
 Normally, you do not have to edit your data, however, if by chance that a program doesn't take your sequenced data, you may have to edit the datafile to fit the program's needs. To do this 
