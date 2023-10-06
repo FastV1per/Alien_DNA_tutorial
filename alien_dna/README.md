@@ -53,7 +53,18 @@ ChromeOS is a Linux based operating system. You should be relieved as you only n
 5. A terminal window opens. That is what you'll be working on. You have a Debian 11 (Bullseye) environment. Side note: Not alot of researchers use Debian but a couple of gaming companies use this if they wanted to remaster old PC games. 
 
 ## Once you have all the required software/ programs
-Once you have all the requirements to start the lab, let's have you open your shell or your terminal. It is a black blox and it would say either terminal or shell. To make sure you're on the LinuxOS/UnixOS you must have a "$" (or a "%" for Unix) at the end of your computer's name. If not, please make sure you have followed the directions above carefully and ask your teacher for help. Let's dowload the "Alien_DNA_tutorial" program. Copy and paste (Ctrl + C | Ctrl + V for windows or command + C| command +V for mac) this code in your terminal/shell without the $:
+Once you have all the requirements to start the lab, let's have you open your shell/terminal. It is a black box and it would say either terminal or shell. To make sure 
+you're on the Linux/Unix operating system you must have a "$" (or a "%" for Unix) at the end of your computer's name. If not, please make sure you have followed the 
+directions above carefully and ask your teacher for help. Let's dowload the "Alien_DNA_tutorial" program. 
+
+For MacOS users, please change your directory to your desktop by copying and pasting this code: 
+
+```
+$ cd desktop
+```
+Copy and paste (Ctrl + C | Ctrl + V for windows or command + 
+C| 
+command +V for mac) this code in your terminal/shell without the $:
 
 ```
 $ git clone https://github.com/FastV1per/Alien_DNA_tutorial.git
@@ -80,9 +91,13 @@ $ cd Alien_DNA_tutorial
 ```
 Cd is the command for change directory
 
-Type 'ls' and you should see a README.md file and a alien_dna file. If alien_dna is highlighted a different color, that means you can jump into that file using the cd command. 
+Type 'ls' and you should see a README.md file and a alien_dna file. If alien_dna is highlighted a different color, that means you can jump into that file using the cd 
+command. 
 
 Go ahead and get use to using these commands by exploring your computer.
+
+MacOS users, you will be working on your desktop directory, so when you feel 
+comfortable moving around the inside of your computer, please cd to your desktop to work on this lab.  
 
 If you do not see Alien_DNA_tutorial as a file make sure you have copied and pasted correctly, LinuxOS is case sensitive, meaning, if there is one letter off, linux will give you a error and will not run your code. Otherwise, good luck on the lab!
 
@@ -92,12 +107,12 @@ You and your team of researchers were sent on a mission to record the location o
 
 ## Goals of Today
 * Using basic C language using LinuxOS 
-* Understand biological data stored through a FAFSTA file
+* Understand biological data
 * Editing and transforming your data to fit a program's needs
-* Analyze data using BLAST
+* Analyze data using BLAST and UCSC Genome Browser
 
 ### Acessing your data
 
-Let's get the data, to do this, change the directory to alien_dna
+in order to acess the data, you should've already cloned the Alien_DNA_tutorial file into a directory. 
 
 
