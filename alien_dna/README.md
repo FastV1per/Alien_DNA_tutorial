@@ -149,8 +149,6 @@ You should see something like this:
 
 [insert image here]
 
-The top line is a single-line description of the DNA sequence, followed by the sequence itself. 
-
 * Q2. Does this file look right to you? What do you think these N mean?
 
 * Q3. Is this supposed to be a DNA sequence or a protein sequence? Why?
