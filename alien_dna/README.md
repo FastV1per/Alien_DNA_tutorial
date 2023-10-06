@@ -155,5 +155,18 @@ You should see something like this:
 
 ### Editing your data
 Normally, you do not have to edit your data, however, if by chance that a program doesn't take your sequenced data, you may have to edit the datafile to fit the program's needs. To do this 
-we need to tell our computer that we want to take out any letters that are not DNA base pairs. 
+we need to tell our computer that we want to take out any letters that are not DNA base pairs.
+
+##BLAST
+After you have edited the data to fit the blast program, go to the main blast website here: (https://blast.ncbi.nlm.nih.gov/Blast.cgi) 
+
+1. Since we are working with nucleotides we want to compare our data to other nucleotides. Click on the Nucleotide BLAST tab
+2. In the Enter Query Sequence, copy and paste the edited sequence only. 
+3. Under the Program Selection, click on somewhat similar sequences (blastn). 
+> The reason being is that we are not certain if there will be any spieces that has the exact same DNA sequence to our alien dna. If we were to select the Highly similar sequence option: (1) It will take a long time for blast to sort thorugh all of its stored sequences and (2) Two different spieces 
+will not have the exact DNA sequence. So by selecting somewhat similar sequences we are guaranteed a better hit of species that could be related to our sampled DNA. 
+4. Once you have selected all of the right parameters, at the bottom click on BAST!
+
+## Understanding your output
+
 
