@@ -168,7 +168,10 @@ After you have edited the data to fit the blast program, go to the main blast we
 > The reason being is that we are not certain if there will be any spieces that has the exact same DNA sequence to our alien dna. If we were to select the Highly similar sequence option: (1) It will take a long time for blast to sort thorugh all of its stored sequences and (2) Two different spieces 
 will not have the exact DNA sequence. So by selecting somewhat similar sequences we are guaranteed a better hit of species that could be related to our sampled DNA. 
 4. Once you have selected all of the right parameters, at the bottom click on BAST!
+5. After blasting the sequence, record the spieces that the alien could be related to.
+6. Repeat these steps for the other samples.
 
 ## Understanding your output
 
-
+* Q4. Which animals is our alien DNA sample most closely related to and by how much? Would you say that the percentage of how relative they are is accurate? Why?
+* Q5. Do you think this alien looks like its most closely related spiecies here on Earth? Why or Why not?
