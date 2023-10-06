@@ -149,6 +149,8 @@ You should see something like this:
 
 [insert image here]
 
+To exit out of viewing a file press q on your keyboard.
+
 * Q2. Does this file look right to you? What do you think these N mean?
 
 * Q3. Is this supposed to be a DNA sequence or a protein sequence? Why?
