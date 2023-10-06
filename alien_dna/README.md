@@ -4,7 +4,6 @@ Welcome to a small introduction of bioinformatics. What is bioinformatics? Bioin
 
 # Requirements for this Lab
 * A laptop
-* Good internet
 * A Github account
 * LinuxOS
 * Storage space (At least 15GB)
@@ -18,15 +17,31 @@ In order to access the data and use these programs. Please sign up to Github. Gi
 
 # Downloading LinuxOS
 
-**PLEASE HAVE AT LEAST 2.7 GB OF FREE STOREAGE SPACE**
+> PLEASE HAVE AT LEAST 2.7 GB OF FREE STOREAGE SPACE
+
 These programs are BIG so please save any homework or projects on the cloud or on a hard drive and uninstall any games or apps on your computer that you haven't palyed in a long time. 
 
 ## Windows
-Please download the following programs here:
+Windows is a bit weird due to the fact that you need a virtual machine to support the linuxOS. VirtualBox is a free virtual machine program that can run all linuxOS. Lubuntu is the most light and most compatible linuxOS for windows and for VirtuaBox. Please download the following programs here:
 
+- VirtualBox (https://www.virtualbox.org/) Downloads --> VirtualBox 7.0.10 platform packages section --> Windows hosts
+- Lubuntu (https://lubuntu.me/) On the top left click on downloads --> click on the Desktop 64-bit for 22.04.3 LTS (jammy Jellyfish)
+
+Once you have downloaded these two, **DO NOT TOUCH your lubuntu file!!** 
+1. Double click on the virtualbox application file. Say yes to everything and do NOT change anything. 
+2. Once you open the VirtualBox Manager, click on new --> in the 'Name' section put anything (ex. your_world)
+3. In the ISO Image section click on the arrow to scroll for lubuntu in your folder
+4. Version should be ubuntu (64-bit). Click next.
+5. Once you click next, click next for the rest of them and do NOT change the settings. 
+6. On the left hand side you will see your virutal world that you named, double click on it and give it a couple of minutes to set up. 
 
 ## Mac
-MacOS is a Unix based operating system. Unix and Linux are sister programs, so bascially you'll have an easier time running linux programs anywhere. Please download the following program here:
+MacOS is a Unix based operating system. Unix and Linux are sister programs, so essentially you have linux bulit into your OS. Your specific version of Unix is called Darwin. You can get access your program through the *Terminal* application. However, you night not have the git command and other developer tools installed by defult. To install these, type the folowing in your terminal and follow the instructions: 
+
+```
+xcode-select --install
+```
+by default, your home directory might not be shown in your sidebar. If you want it there, change that in Finder -> Preferences.
 
 ## Chrombook
 ChromeOS is a Linux based operating system. You should be relieved as you only need to enable it. Please follow the following intstructions here: 
