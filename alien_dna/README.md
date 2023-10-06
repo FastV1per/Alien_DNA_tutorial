@@ -41,7 +41,7 @@ MacOS is a Unix based operating system. Unix and Linux are sister programs, so e
 ```
 xcode-select --install
 ```
-by default, your home directory might not be shown in your sidebar. If you want it there, change that in Finder -> Preferences.
+Then hit return. By default, your home directory might not be shown in your sidebar. If you want it there, change that in Finder -> Preferences.
 
 ## Chrombook
 ChromeOS is a Linux based operating system. You should be relieved as you only need to enable it. Please follow the following intstructions here: 
@@ -62,13 +62,13 @@ For MacOS users, please change your directory to your desktop by copying and pas
 ```
 $ cd desktop
 ```
-Copy and paste (Ctrl + C | Ctrl + V for windows or command + 
-C| 
+Copy and paste (Ctrl + C | Ctrl + V for windows or command + C| 
 command +V for mac) this code in your terminal/shell without the $:
 
 ```
 $ git clone https://github.com/FastV1per/Alien_DNA_tutorial.git
 ```
+Hit return/enter
 
 git is github, clone is the command to download, and the URL is the link to this tutorial.
 
@@ -89,21 +89,32 @@ What if I want to get into a file called alien_dna? You can jump into that direc
 ```
 $ cd Alien_DNA_tutorial
 ```
-Cd is the command for change directory
+cd is the command for change directory
 
 Type 'ls' and you should see a README.md file and a alien_dna file. If alien_dna is highlighted a different color, that means you can jump into that file using the cd 
 command. 
 
 Go ahead and get use to using these commands by exploring your computer.
 
-MacOS users, you will be working on your desktop directory, so when you feel 
-comfortable moving around the inside of your computer, please cd to your desktop to work on this lab.  
+If you want to go back to a previous directory type:
+
+```
+$ cd ..
+```
+Typing cd by itself will result in you going to the root directory. The root directory is the computer's own homepage and you will see all the files that your computer is carrying.
+
+MacOS users, as a reminder you will be working on your desktop directory, so when you feel 
+comfortable moving around the inside of your computer, please cd to your desktop to work on this lab.
+
+> Tip: Instead of writing the directory out word by word, you can write the first 2-3 words of the directory you want and hit tab and hit enter/return.   
 
 If you do not see Alien_DNA_tutorial as a file make sure you have copied and pasted correctly, LinuxOS is case sensitive, meaning, if there is one letter off, linux will give you a error and will not run your code. Otherwise, good luck on the lab!
 
 # DNA from outer space
-You and your team of researchers were sent on a mission to record the location of a local meteor shower. When you and your team got there, some of the debris remained intact. Excited to see pieces of rock fallen from the shy, you and your collegues ruch to collect any pieces that you could find in order to test their components.One night, one of your team members analyzed these strange rocks and have found strange alien DNA on them. Quickly, your colleague has collected a couple of more samples and put them into a sequencer to sequence the data into a file. When you were given the data. You wonder if this alien DNA could bre realted to a known species here on earth.
-
+You and your team of researchers were sent on a mission to record the location of a local meteor shower. When you and your team get there, you noticed some of the rocks remainded 
+intact. Excited to see pieces of space rock, you and your collegues rush to collect them in order to test their components.One night, one of your team members analyzed something 
+peculiar. These strange rocks are carrying alien DNA! Quickly, your colleague has collected a couple of more samples and put them into a sequencer to 
+sequence. The next day, you see the data and wonder; does any of this alien DNA have a distant relative of a known species here on earth?
 
 ## Goals of Today
 * Using basic C language using LinuxOS 
@@ -111,8 +122,39 @@ You and your team of researchers were sent on a mission to record the location o
 * Editing and transforming your data to fit a program's needs
 * Analyze data using BLAST and UCSC Genome Browser
 
-### Acessing your data
+### Accessing your data
 
-in order to acess the data, you should've already cloned the Alien_DNA_tutorial file into a directory. 
+In order to acess the data, you should've already git clone the Alien_DNA_tutorial file into your directory (for Windows it's your files folder and for Mac/chrome it should show up 
+on your desktop page.)
 
+You data is going to be found in the alien_dna directory, so change your directory to go there.
+
+Once you're in the alien_dna directory there should be a dateset called: "alien_dataset.fasta". A FASTA file is a text-based format for representing either nucleotide sequences or 
+protein sequences, in which based pairs or amino acids are represented using single-letter codes. Here is an example of a FASTA file below:
+
+[insert image here] 
+
+Top line is a simgle-line description of the DNA sequence, fllowed by the sequence itself.
+
+Q1.) Is this a DNA sequence or a protein sequence? Why?
+
+To look into a file type this:
+
+```
+$ zless alien_dataset.fasta
+```
+Hit enter/return
+
+You should see something like this:
+
+[insert image here]
+
+The top line is a single-line description of the DNA sequence, followed by the sequence itself. 
+
+Q2.) Does this file look right to you? What do you think these N mean?
+Q3.) Is this supposed to be a DNA sequence or a protein sequence? Why?
+
+### Editing your data
+Normally, you do not have to edit your data, however, if by chance that a program doesn't take your sequenced data, you may have to edit the datafile to fit the program's needs. To do this 
+we need to tell our computer that we want to take out any letters that are not DNA base pairs. 
 
