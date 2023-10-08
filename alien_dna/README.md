@@ -132,7 +132,9 @@ You data is going to be found in the alien_dna directory, so change your directo
 Once you're in the alien_dna directory there should be a dateset called: "alien_dataset.fasta". A FASTA file is a text-based format for representing either nucleotide sequences or 
 protein sequences, in which based pairs or amino acids are represented using single-letter codes. Here is an example of a FASTA file below:
 
-[insert image here] 
+![Screenshot of a fasta 
+file](https://github.com/FastV1per/Alien_DNA_tutorial/blob/main/alien_dna/fasta.file_example.png)
+
 
 Top line is a simgle-line description of the DNA sequence, fllowed by the sequence itself.
 
