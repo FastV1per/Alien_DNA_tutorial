@@ -1,5 +1,3 @@
-"Hello world!"
-
 Welcome to a small introduction of bioinformatics. What is bioinformatics? Bioinformatics is a sub-branch of biotechnology where we take biological data to understand and analyze with multiple interface programs. Before we get started, we need to download some software and that would depend on your operating system. Your operating system (OS) is the program that runs your computer. For example, WindowsOS and MacOS are operating systems. How you're seeing this "README.md" file is through your operating system. Although bioinformatician use Windows and Mac for day to day use, where they store data and compile their analysis is through LinuxOS. How do you check what operating system you have? All apple products have MacOS, anything else uses WindowsOS EXCEPT Chrombook. Chrombook uses ChromeOS. 
 
 # Requirements for this Lab
@@ -135,12 +133,12 @@ protein sequences, in which based pairs or amino acids are represented using sin
 ![Screenshot of a fasta 
 file](https://github.com/FastV1per/Alien_DNA_tutorial/blob/main/alien_dna/fasta.file_example.png)
 
-
-Top line is a simgle-line description of the DNA sequence, fllowed by the sequence itself.
+Top line is a simgle-line description of the species it is, the region of 
+the gene it's in, and then followed by the sequence itself.
 
 * Q1. Is this a DNA sequence or a protein sequence? Why?
 
-To look into a file type this:
+In order to look into our fasta file type this:
 
 ```
 $ zless alien_dataset.fasta
