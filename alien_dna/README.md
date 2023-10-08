@@ -70,7 +70,8 @@ Hit return/enter
 
 git is github, clone is the command to download, and the URL is the link to this tutorial.
 
-In english, I've asked github to send me a copy of this program for me to use.
+In english, I've asked github to send me a copy of this program for me to 
+use on my own computer.
 
 ### The two commands that you will forever use
 
@@ -125,20 +126,20 @@ sequence. The next day, you see the data and wonder; does any of this alien DNA 
 In order to acess the data, you should've already git clone the Alien_DNA_tutorial file into your directory (for Windows it's your files folder and for Mac/chrome it should show up 
 on your desktop page.)
 
-You data is going to be found in the alien_dna directory, so change your directory to go there.
+1. You data is going to be found in the alien_dna directory, so change your directory to go there.
 
-Once you're in the alien_dna directory there should be a dateset called: "alien_dataset.fasta". A FASTA file is a text-based format for representing either nucleotide sequences or 
-protein sequences, in which based pairs or amino acids are represented using single-letter codes. Here is an example of a FASTA file below:
+2. Once you're in the alien_dna directory there should be a dateset called: "alien_dataset.fasta". A FASTA file is a text-based format for representing either nucleotide sequences or 
+protein sequences, in which based pairs or amino acids are represented using single-letter codes. Because of how long DNA/protein sequences can get, a fasta file is a great way to compress 
+this data. Here is an example of a FASTA file below:
 
-![Screenshot of a fasta 
-file](https://github.com/FastV1per/Alien_DNA_tutorial/blob/main/alien_dna/fasta.file_example.png)
+> ![Screenshot of a fasta file](https://github.com/FastV1per/Alien_DNA_tutorial/blob/main/alien_dna/fasta.file_example.png)
 
 Top line is a simgle-line description of the species it is, the region of 
 the gene it's in, and then followed by the sequence itself.
 
 * Q1. Is this a DNA sequence or a protein sequence? Why?
 
-In order to look into our fasta file type this:
+3. Since our computers wont allow is to open the data itself, we can preview our dataset by typing this:
 
 ```
 $ zless alien_dataset.fasta
@@ -151,7 +152,7 @@ You should see something like this:
 
 To exit out of viewing a file press q on your keyboard.
 
-* Q2. Does this file look right to you? What do you think these N mean?
+* Q2. Does this file look right to you? What do you think these 'N' mean?
 
 * Q3. Is this supposed to be a DNA sequence or a protein sequence? Why?
 
