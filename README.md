@@ -4,7 +4,7 @@ Welcome to a small introduction of bioinformatics. What is bioinformatics? Bioin
 * A laptop
 * A Github account
 * LinuxOS
-* Storage space (At least 15GB)
+* Storage space (At least ~8-15GB)
 * An open mind set
 
 # What is not required 
