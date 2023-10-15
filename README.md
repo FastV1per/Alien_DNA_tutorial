@@ -132,7 +132,7 @@ on your desktop page.)
 protein sequences, in which based pairs or amino acids are represented using single-letter codes. Because of how long DNA/protein sequences can get, a fasta file is a great way to compress 
 this data. Here is an example of a FASTA file below:
 
-> ![Screenshot of a fasta file](https://github.com/FastV1per/Alien_DNA_tutorial/blob/main/fasta.file_example.png)
+> ![Screenshot of a fasta file](https://www.researchgate.net/figure/Protein-sequences-Fasta-format-used-to-predict-structure_tbl1_260025576)
 
 Top line is a simgle-line description of the species it is, the region of 
 the gene it's in, and then followed by the sequence itself.
