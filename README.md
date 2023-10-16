@@ -1,5 +1,7 @@
 Welcome to a small introduction of bioinformatics. What is bioinformatics? Bioinformatics is a sub-branch of biotechnology where we take biological data to understand and analyze with multiple interface programs. Before we get started, we need to download some software and that would depend on your operating system. Your operating system (OS) is the program that runs your computer. For example, WindowsOS and MacOS are operating systems. How you're seeing this "README.md" file is through your operating system. Although bioinformaticians use Windows and Mac for day to day use, where they store data and compile their analysis is through LinuxOS. How do you check what operating system you have? All apple products have MacOS, anything else uses WindowsOS EXCEPT Chromebook. Chromebook uses ChromeOS. 
 
+* **NOTE TO TEACHERS:** If you are using chromebooks to do this lab, please ask your IT admin to help open the linux browser option before doing this lab with sutdents. 
+
 # Requirements for this Lab
 * A laptop
 * A Github account
