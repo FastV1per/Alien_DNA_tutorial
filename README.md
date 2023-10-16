@@ -204,4 +204,12 @@ You are now looking at a small section of a genome of that animal.
 you get a matching result. It should be the first result. 
 6. Once you click on it, it will take you back to the genome browser and highlight your gene of interest on the left hand side. 
 7. You can click and hover over the gene to learn more about it.
- 
+
+* Q9. How long is the gene?
+* Q10. Which chromosome is the gene located on?
+* Q11. How many exons and introns does the gene have. 
+* Q12. Is this a protein coding gene?
+
+
+
+> Credit: Main coder: Samantha Leano, Demo:
